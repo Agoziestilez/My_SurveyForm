@@ -1,0 +1,106 @@
+/* global css */
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #05C46B;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Container holding everything*/
+.container {
+  margin: 20px 350px;
+  /* border: 1px solid red; */
+}
+
+/* container holding the form */
+#myform {
+  width: auto;
+  height: auto;
+  background-color: white;
+  color: black;
+  padding: 20px;
+}
+
+/* paragraghs */
+.lab {
+  /* border: 1px solid red; */
+  margin: 30px 0;
+}
+
+/* css for extending the width of 
+the content */
+#let {
+  width: 100%;
+}
+
+/* css for the text areas */
+.text {
+  width: 100%;
+  margin-top: 7px;
+  padding: 10px;
+}
+
+/* adding margin top to the question tags */
+.mag {
+  margin-top: 10px;
+}
+
+/* submit button */
+#sub {
+  width: 100%;
+  background-color: #05C46B;
+  color: black;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 7px;
+  text-align: center;
+}
+
+#sub:hover {
+  color: white;
+}
+
+/* reset button */
+#rest {
+  width: 100%;
+  background-color: #5c540c;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 7px;
+  text-align: center;
+}
+
+#rest:hover {
+  color: black;
+}
+
+/* homepage ppty */
+#homep {
+  width: 100%;
+  background-color: #dad9d2;
+  color: #05C46B;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 7px;
+  text-align: center;
+}
+
+#homep:hover {
+    color: black;
+}
+
+#homep:active {
+    color: white;
+}
